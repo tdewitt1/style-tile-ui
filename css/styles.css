@@ -1,0 +1,232 @@
+/* Margin & Padding */
+h2, h3, p {
+	margin: 0;
+}
+
+/* Layout */
+section {
+	position: relative;
+	margin: 60px 0;
+}
+/* Color Palette */
+.color-1{
+    background: #800000;
+}
+
+.color-2{
+    background: #cd5323;
+}
+
+.color-3{
+    background: #ff6600;
+}
+
+.color-4{
+    background: #000000;
+}
+
+.color-5{
+    background: #ffffff;
+    border: 1px solid black;
+}
+
+/* Textures or Patterns */
+
+.pattern-1 {
+background-image: url(/img/skulls.png);
+    height: 100px;
+    width: 100px;
+}
+
+.pattern-2{
+    background-image: url(/img/small_steps.png);
+    height: 100px;
+    width: 100px;
+}
+
+.pattern-3{
+    background-image: url(/img/symphony.png);
+    height: 100px;
+    width: 100px;
+}
+
+.pattern-4{
+    background-image: url(/img/upfeathers.png);
+    height: 100px;
+    width: 100px;
+}
+
+.pattern-5{
+    background-image: url(/img/wood_pattern_@2X.png);
+    height: 100px;
+    width: 100px;
+}
+
+/* Imagery */
+
+.imagery-1,
+.imagery-2,
+.imagery-3,
+.imagery-4,
+.imagery-5
+{
+	height: 200px;
+	width: 300px;
+}
+
+.imagery-1{
+    background-image: url(http://www.wikihow.com/images/2/20/Buy-a-Good-Acoustic-Guitar-Step-5.jpg) ;
+    background-size: cover;
+    
+}
+
+.imagery-2{
+   background-image: url(http://www.cardmakingparadise.com/cardmaking_paradise_moustache_templates_450.jpg);
+    background-size: cover;
+    width: 392px;
+    height: 278px;
+}
+
+.imagery-3{
+    background-image: url(http://aaradhya-group.com/wp-content/uploads/2014/08/Earl-Grey1.png);
+    background-size: cover;
+}
+
+.imagery-4{
+   background-image: url(https://asrsworld.files.wordpress.com/2015/06/5.jpg?w=470&h=322);
+    background-size: cover;
+}
+
+.imagery-5{
+     background-image: url(http://cdnpix.com/show/imgs/9eb7ed8c4849177543d644b2e3ca1836.jpg);
+    background-size: cover;
+    width: 392px;
+    height: 590px;
+}
+
+/*Icons */
+.icon-1{
+    background-image: url(/img/bookmark.svg);
+    background-size: cover;
+}
+
+.icon-2{
+    background-image: url(/img/email.svg);
+    background-size: cover;
+}
+
+.icon-3 {
+    background-image: url(/img/favorite.svg);
+    background-size: cover;
+}
+
+.icon-4{
+    background-image: url(/img/home.svg);
+    background-size: cover;
+}
+
+.icon-5{
+    background-image: url(/img/speechbubble.svg);
+    background-size: cover;
+}
+
+/* Typography */
+
+.label {
+	position: absolute;
+	left: -30px;
+	top: -30px;	
+   font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+
+p{
+  font-family: 'EB Garamond', serif;  
+}
+
+h1, h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color: #800000;
+}
+
+h3 {
+   font-family: 'Englebert', sans-serif;
+    font-size: 20px;
+    color: #cd5323;
+}
+
+a{
+    text-decoration: none;
+    color: #ff6600;
+    font-weight: lighter;
+}
+
+/* Forms */
+
+input{
+    border: #ff6600 1px solid;
+    font-family: 'EB Garamond', serif;
+   color: black;
+    font-size: 16px;
+    padding: auto;
+    margin: auto;
+    text-align: left;
+}
+
+button{
+ background: #ffa84c;
+background: -moz-linear-gradient(top,  #ffa84c 0%, #ff7b0d 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffa84c), color-stop(100%,#ff7b0d));
+background: -webkit-linear-gradient(top,  #ffa84c 0%,#ff7b0d 100%);
+background: -o-linear-gradient(top,  #ffa84c 0%,#ff7b0d 100%);
+background: -ms-linear-gradient(top,  #ffa84c 0%,#ff7b0d 100%);
+background: linear-gradient(to bottom,  #ffa84c 0%,#ff7b0d 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', endColorstr='#ff7b0d',GradientType=0 );
+    border: none;
+    font-family: 'EB Garamond',sans-serif;
+    font-size: 16px;
+    margin: auto;
+    padding: 1px 5px 5px 1px;
+    text-align: center;    
+}
+
+/* Tables */
+    
+table,th,td{
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 1px 1px 1px;
+}
+
+th {
+    font-family: 'Englebert', sans-serif;
+    color: #ff6600;
+}
+
+td {
+    font-family: 'EB Garamond', serif;
+}
+
+
+/* Cards */
+
+figure, 
+figure p {
+	width: 200px;
+}
+
+figure {
+    border-radius: 10px;
+    border: #ff6600 7px solid;
+    text-align: center;
+    font-family: 'EB Garamond', sans-serif;
+    font-size: 12px;
+    box-shadow: 2px 4px 9px #000000;
+}
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
