@@ -32,35 +32,6 @@ section {
 
 /* Textures or Patterns */
 
-.pattern-1 {
-background-image: url(/img/skulls.png);
-    height: 100px;
-    width: 100px;
-}
-
-.pattern-2{
-    background-image: url(/img/small_steps.png);
-    height: 100px;
-    width: 100px;
-}
-
-.pattern-3{
-    background-image: url(/img/symphony.png);
-    height: 100px;
-    width: 100px;
-}
-
-.pattern-4{
-    background-image: url(/img/upfeathers.png);
-    height: 100px;
-    width: 100px;
-}
-
-.pattern-5{
-    background-image: url(/img/wood_pattern_@2X.png);
-    height: 100px;
-    width: 100px;
-}
 
 /* Imagery */
 
@@ -105,30 +76,7 @@ background-image: url(/img/skulls.png);
 }
 
 /*Icons */
-.icon-1{
-    background-image: url(/img/bookmark.svg);
-    background-size: cover;
-}
 
-.icon-2{
-    background-image: url(/img/email.svg);
-    background-size: cover;
-}
-
-.icon-3 {
-    background-image: url(/img/favorite.svg);
-    background-size: cover;
-}
-
-.icon-4{
-    background-image: url(/img/home.svg);
-    background-size: cover;
-}
-
-.icon-5{
-    background-image: url(/img/speechbubble.svg);
-    background-size: cover;
-}
 /* Navigation */
 li{
     list-style-type: none;
