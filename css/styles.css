@@ -129,11 +129,56 @@ background-image: url(/img/skulls.png);
     background-image: url(/img/speechbubble.svg);
     background-size: cover;
 }
+/* Navigation */
+li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 60px;
+}
 
+.nav1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 12px;
+    text-align: justify;
+    background-image: url(/img/upfeathers.png);
+    background-size: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #000000
+}
+
+.nav2 {
+    font-family: 'Dancing Script',cursive;
+    font-size: 12px;
+    text-align: justify;
+    background-image: url(/img/symphony.png);
+    background-size: auto;
+    box-shadow: 1px 1px 1px #000000   
+}
+
+
+.nav2a {
+    font-family: 'Dancing Script',cursive;
+    font-size: 14px;
+    text-align: justify;
+    color: #800000;  
+}
+
+.nav2img {
+    display: table-row
+}
 /* Typography */
 
 .label {
 	position: absolute;
+	left: -30px;
+	top: -30px;	
+   font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+
+label {
 	left: -30px;
 	top: -30px;	
    font-family: 'Dancing Script', cursive;
@@ -162,6 +207,23 @@ a{
     font-weight: lighter;
 }
 
+.b-head2 {
+   font-family: 'Englebert', sans-serif;
+    font-size: 35px;
+    color: #ff6600; 
+}
+
+.b-head3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    color: #cd5334;
+}
+
+.b-p {
+    font-family: 'EB Garamond',serif;
+    font-size: 12px;
+    color: black;
+}
 /* Forms */
 
 input{
@@ -199,15 +261,20 @@ table,th,td{
     margin: 20px 1px 1px 1px;
 }
 
-th {
+.row-1 {
     font-family: 'Englebert', sans-serif;
     color: #ff6600;
+    font-weight: bold;
 }
 
 td {
     font-family: 'EB Garamond', serif;
 }
 
+th,td {
+    display: table-cell;
+    vertical-align: inherit;
+}
 
 /* Cards */
 
