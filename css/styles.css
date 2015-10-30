@@ -90,19 +90,19 @@ li{
     font-family: 'EB Garamond', serif;
     font-size: 12px;
     text-align: justify;
-    background-image: url(/img/upfeathers.png);
-    background-size: auto;
     border-radius: 10px;
-    box-shadow: 1px 1px 1px #000000
+    box-shadow: 1px 1px 1px #000000;
+    background-image: url(../img/upfeathers.png);
+    background-size: auto;
 }
 
 .nav2 {
     font-family: 'Dancing Script',cursive;
     font-size: 12px;
     text-align: justify;
-    background-image: url(/img/symphony.png);
+    box-shadow: 1px 1px 1px #000000 ;
+    background-image: url(../img/symphony.png);
     background-size: auto;
-    box-shadow: 1px 1px 1px #000000   
 }
 
 
